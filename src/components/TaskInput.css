@@ -1,0 +1,53 @@
+
+
+
+/* task input */
+
+  
+.inputHeader {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .addTask {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .addTask form {
+    display: flex;
+    gap: 10px;
+  }
+
+  .addTask form input {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 8px;
+  }
+
+  .btnAdd {
+    color: rgb(255, 255, 255);
+    background-color: #00ff7b;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .add-logo {
+    color: green;
+    font-size: 20px;
+  }
+
+  .btnAdd:hover {
+    background-color: rgb(3, 174, 37);
+  }
+
+  .btnAdd:active {
+    transform: translateY(2px);
+  }

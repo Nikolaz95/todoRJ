@@ -1,0 +1,443 @@
+
+
+
+
+.taskTodo {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: 20px auto;
+  }
+
+  .taskTodoHead {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+  }
+
+  .count-todo {
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    color: #ff0000;
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+
+  .clearAll {
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 8px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .clearAll:hover {
+    background-color: #cd2424;
+  }
+
+  .clearAll:active {
+    transform: translateY(2px);
+  }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+
+  li {
+    display: flex;
+    width: 600px;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+    border-left: 5px solid rgb(248, 209, 91);
+    box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+
+
+  .content-todoList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .butons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+  }
+
+
+
+  /* btn update style */
+
+  .btnupd {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #6ff52c 5%, #e2e663 100%);
+	background-color:#6ff52c;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+  }
+
+  .btnupd:hover {
+    background:linear-gradient(to bottom, #e2e663 5%, #6ff52c 100%);
+    background-color:#e2e663;
+  }
+
+  .btnupd:active {
+    position:relative;
+	top:1px;
+  }
+
+/* btn save style */
+
+  .btnsave {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #6ff52c 5%, #e2e663 100%);
+	background-color:#6ff52c;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+  }
+
+  .btnsave:hover {
+    background:linear-gradient(to bottom, #e2e663 5%, #6ff52c 100%);
+    background-color:#e2e663;
+  }
+
+  .btnsave:active {
+    position:relative;
+	top:1px;
+  }
+
+
+.upd-logo {
+  color: rgb(34, 0, 255);
+}
+
+.save-logo {
+  color: rgb(34, 0, 255);
+  font-size: 20px;
+}
+
+.done-logo{
+  color: rgb(55, 255, 55);
+  font-size: 20px;
+}
+
+.clearAll-logo {
+  color: black;
+  font-size: 20px;
+}
+
+.delete-logo {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+
+  .input-update {
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+/* btn done style */
+
+  .btndone {
+    box-shadow: 0px 10px 14px -7px #0085eb;
+    background-color:#6e9dfa;
+    border-radius:4px;
+    border:1px solid #8dc472;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #8a3d3d;
+  }
+  .btndone:hover {
+    background-color:#65c8e6;
+  }
+  .btndone:active {
+    position:relative;
+    top:1px;
+  }
+  
+
+ /*  .btndelete {
+    padding: 5px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+  } */
+
+  /* btn delete style */
+
+
+  .btndelete {
+    box-shadow: 0px 10px 14px -7px #ff0000;
+    background-color:#ff0000;
+    border-radius:4px;
+    border:1px solid #ff0000;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ff0000;
+  }
+  .btndelete:hover {
+    background-color:#8a1111;
+  }
+  .btndelete:active {
+    position:relative;
+    top:1px;
+  }
+  
+
+  @media only screen and (max-width: 660px) {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+      width: 500px;
+      justify-content: center;
+      border-radius: 20px;
+      padding: 15px 10px;
+      border-left: 5px solid rgb(248, 209, 91);
+      box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+  }
+  
+
+  @media only screen and (max-width: 570px) {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+    width: 400px;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+    border-left: 5px solid rgb(248, 209, 91);
+    box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 470px) {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+    width: 350px;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+    border-left: 5px solid rgb(248, 209, 91);
+    box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    }
+  }
+
+
+  @media only screen and (max-width: 410px) {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+    width: 300px;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+    border-left: 5px solid rgb(248, 209, 91);
+    box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    }
+
+    .content-todoList p {
+      display: flex;
+      max-width: 250px;
+      flex-direction: column;
+      padding: 20px;
+      word-wrap: break-word;
+    }
+  }
+
+
+  @media only screen and (max-width: 335px) {
+    .taskTodoHead {
+      display: flex;
+      text-align: center;
+      margin-bottom: 20px;
+      flex-direction: row;
+      gap: 30px;
+      align-items: center;
+      justify-content: flex-end;
+  }
+    
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+      width: 230px;
+      justify-content: center;
+      border-radius: 20px;
+      padding: 20px;
+      border-left: 5px solid rgb(248, 209, 91);
+      box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 10px;
+      text-align: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 320px) {
+    .taskTodoHead {
+      display: flex;
+      text-align: center;
+      margin-bottom: 20px;
+      flex-direction: row;
+      gap: 30px;
+      align-items: center;
+      justify-content: flex-end;
+  }
+    
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      display: flex;
+      width: 230px;
+      justify-content: center;
+      border-radius: 20px;
+      padding: 20px;
+      border-left: 5px solid rgb(248, 209, 91);
+      box-shadow: 3px 4px 13px 0px rgb(236, 210, 65);
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 10px;
+      text-align: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+  }
+
+  
